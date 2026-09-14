@@ -1,1 +1,124 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 96px 50px;
+}
+.header__logo {
+  width: 148px;
+  display: block;
+  }
+.header__links-list {
+  display: flex;
+  gap: 32px;
+  list-style: circle;
+}
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+.header__link {
+  text-decoration:underline;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+}
+.header__link_active {
+  text-decoration: none;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  align-items: flex-start;
+  font-size: 18px;
+  line-height: 24.3px;
+}
+.header__address {
+  justify-self: end;
+  max-width: 240px;
+  padding-right: 3.51px;
+}
+.cover {
+  background-image: url("../images/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 757px; 
+  position: relative;
+  
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: #000000;
+  opacity: 60%;
+  z-index: 1;
+  }
+  .cover__title {
+    padding: 165px 50px 0px 50px;
+    
+    position: relative;
+    z-index: 2;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 115%;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+  }
+  
+  .cover__description-text {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    word-spacing: 17.6px;
+    text-transform: uppercase;
+  }
+  .aligned-text {
+    display: block;
+  }
+.aligned-text_left {
+  text-align: left;
+}
+.aligned-text_center {
+  text-align: center;
+}
+.aligned-text_right {
+  text-align: right;
+}
+.cover__description {
+  padding: 106px 50px 50px 50px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-end;
+  gap: 107px;
+  align-items: center;
+}
+.bet-button {
+  font-size: 22px;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 100%;
+  border: 1px solid #FFFFFF;
+  background-color: transparent;
+  text-transform: uppercase;
+  padding: 12px 32px 11px 31px;
+  
+}
+.iots {
+  
+  min-height:723px; 
+  margin-top: 180px;
+  
+}
+.lots__heading{
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.card {
+  position: relative;
+}
